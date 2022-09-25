@@ -1,22 +1,93 @@
 
-/* hover #2196F3 mail #757575 Roboto medium 
-portfolio #212121 Roboto medium (500) h1 #FFFFFF Roboto black (900)
- background #FFFFFF button #FFFFFF Roboto Bold (700) #757575 Roboto regular 
- team #F5F4FA logo #000000 #2196F3 #FFFFFF Raleway bold 
- button portfolio #F5F4FA (background) 
- address tel color: rgba(255, 255, 255, 0.6);
+/* 
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+font-weight: 400;500;700;900
+color main color #757575
+color title h2 #212121
+background #FFFFFF
+title hero #FFFFFF
+team card job #757575
+background section teams #F5F4FA
+address tel color: rgba(255, 255, 255, 0.6)
+logo #000000 #2196F3 #FFFFFF Raleway 700
+hover #2196F3 mail #757575 Roboto medium
+portfolio #212121 Roboto 500
  */
-
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-text-color: #2196F3;
+   --white-color: #FFFFFF;
+}
+body {
+   background-color: var(--white-color);
+   color: var(--primary-text-color);
+}
+.list {
+   list-style: none;
+}
 
 
 .logo {
-   color: #2196F3;
+   color: var(--accent-text-color);
 }
-.logo-studio {
+.logo-dark {
    color: #000000;
+}
+.logo-light {
+   color: var(--white-color);
+}
+/* site-nav */
+.site-nav .link {
+   color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-text-color);
+}
+.contact .contact-link {
+   color: var(--primary-text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+   color: var(--accent-text-color);
+}
+/* hero */
+.hero {
+   background-color: #2F303A;
+}
+.hero-title {
+   color: var(--white-color);
+}
+.button {
+   background-color: var(--accent-text-color);
+   color: var(--white-color);
+}
+.section-title {
+   color:  var(--title-text-color);
+}
+/* our teams */
+.teams {
+   background-color: #F5F4FA;
+}
+.member> .section-title {
+   font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19;
+      text-align: center;
+      letter-spacing: 0.03em;
+}
+/* footer */
+.address {
+   background-color: #2F303A;
+}
+.address .contact-link {
+   color: rgba(255, 255, 255, 0.6);
+}
+.map {
+   color: var(--white-color);
+}
+/* portfolio */
+.portfolio p {
+   color: var(--primary-text-color);
 }
