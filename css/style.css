@@ -104,4 +104,5 @@ portfolio #212121 Roboto 500
 }
 .portfolio a {
    background-color: #FFFFFF;
+   text-decoration: none;
 }
