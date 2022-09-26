@@ -24,6 +24,7 @@ body {
    background-color: var(--white-color);
    color: var(--primary-text-color);
    font-family: 'Roboto', sans-serif;
+   letter-spacing: 0.03em;
 }
 
 .list {
@@ -36,7 +37,6 @@ body {
    font-family: 'Raleway', sans-serif;
    font-size: 26px;
    line-height: 1.19;
-   letter-spacing: 0.03em;
    text-decoration: none;
 }
 
@@ -76,11 +76,6 @@ body {
    text-decoration: none;
 }
 
-
-.contact-link:hover,
-.contact-link:focus {
-   color: var(--accent-text-color);
-}
 /* footer */
 .address {
    background-color: #2F303A;
@@ -92,17 +87,17 @@ body {
    font-style: normal;
    font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
    text-decoration: none;
 }
-
-
+.contact-link:hover,
+.contact-link:focus {
+   color: var(--accent-text-color);
+}
 .map {
    color: var(--white-color);
    font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
    text-decoration: none;
 }

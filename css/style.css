@@ -43,35 +43,34 @@ portfolio #212121 Roboto 500
    color:  var(--title-text-color);
    font-size: 36px;
    line-height: 1.17;
-   letter-spacing: 0.03em;
 }
 .subtitle {
    color: var(--title-text-color);
-   font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
-   letter-spacing: 0.03em;
    text-transform: uppercase;
 }
 .features p {
    font-size: 14px;
    line-height: 1.71;
-   letter-spacing: 0.03em;
 }
 /* our teams */
 .teams {
    background-color: var(--section-background);
 }
-.member> .section-title {
+.avatar {
+   background-color: var(--white-color);
+}
+.member {
+   color: var(--title-text-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
-   letter-spacing: 0.03em;
+   
 }
 .member-text {
    font-size: 16px;
    line-height: 1.19;
-   letter-spacing: 0.03em;
 }
 
 /* portfolio button */
@@ -82,7 +81,6 @@ portfolio #212121 Roboto 500
    font-weight: 500;
    font-size: 16px;
    line-height: 1.63;
-   letter-spacing: 0.03em;
    border-color: transparent;
    border-radius: 4px;
    cursor: pointer;
@@ -103,7 +101,6 @@ portfolio #212121 Roboto 500
    color: var(--primary-text-color);
    font-size: 16px;
    line-height: 1.88;
-   letter-spacing: 0.03em;
 }
 .portfolio a {
    background-color: #FFFFFF;
